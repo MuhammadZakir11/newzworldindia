@@ -222,10 +222,10 @@ blockquote:after,
 body.boxed{ background-color: #efefef; }
 body.wide{ background-color: #ffffff; }
 body.no-background{ background-image: none; }
-body.background-image1{ background-image: url(); }
-body.background-image2{ background-image: url(); } /*'../img/bg1.jpg'*/
-body.background-image3{ background-image: url(); }
-body.background-image4{ background-image: url(); }
+body.background-image1{ background-image: url('../img/bg2.jpg'); }
+body.background-image2{ background-image: url('../img/bg1.jpg'); }
+body.background-image3{ background-image: url('../img/bg3.jpg'); }
+body.background-image4{ background-image: url('../img/bg4.jpg'); }
 
 .mobile-nav{ display: none; }
 
@@ -2394,7 +2394,7 @@ a img.aligncenter {
   right:0px;
   top:0px;
   bottom:0px;
-  background: url(src/assets/css/images/parallax-bg.png) transparent repeat-x 0 0;
+  background: url(images/parallax-bg.png) transparent repeat-x 0 0;
   background-size: auto 100%;
 }
 .parallax-wrapper .post-header{
